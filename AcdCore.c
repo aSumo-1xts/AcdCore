@@ -62,11 +62,6 @@ void main(void)
     int released = 2;
     // now which state ON(true) or OFF(false)
     bool state  = true;   
-    
-    GP0 = 1;    // LED ON
-    GP1 = 1;    // Relay ON
-    GP2 = 0;    // Photocoupler OFF
-
    
     // Mugen Loop
     while(true) {
