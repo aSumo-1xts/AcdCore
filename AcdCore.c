@@ -30,7 +30,7 @@ bool turn(bool State)
     GP0     = !State;   // LED ON
     GP1     = !State;   // Relay ON
     __delay_ms(25);
-    GP2     = false;    // Photocoupler OFF
+    GP2     = State ;   // Photocoupler OFF
     State   = !State;   // new State
 
     return State;
